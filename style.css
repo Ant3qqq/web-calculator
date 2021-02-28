@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    background-color: #454545;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#calculator{
+    display: flex;
+    flex-wrap: wrap;
+    width: 406px;
+    height: 751px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border: #2a2a2a 20px solid;
+    /* margin-top: 0px; */
+
+
+}
+#display{
+    width: 386px;
+    height: 100px;
+    padding: 10px;
+    background-color:  white;
+    border-bottom:  #2a2a2a 15px solid;
+    overflow-wrap: break-word;
+    overflow:auto;
+
+}
+
+.buttonNum ,.button{
+    width: 130px;
+    height: 98px;
+    background-color:royalblue;
+    color: rgb(0, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 4px solid #00ffff63;
+    border-left: 4px solid #00ffff63;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    /* background-color: rgba(0, 255, 255, 0.637); */
+    background-color: rgba(65, 116, 225, 0.76);
+
+
+}
+
+#Multiply ,#Divide{
+    position: relative;
+    bottom: 106px;
+    border-bottom: 4px solid #00ffff63;
+}
+#Equals{
+    height: 200px;
+    border-bottom: 4px solid #00ffff63;
+}
+
+#two, #five, #eight, #CLS, #Equals{
+    border-right: 4px solid #00ffff63;
+}
+
+/* #pointer{
+    position: relative;
+    bottom: 108px;
+    border-bottom: 4px solid #00ffff63;
+} */
+
